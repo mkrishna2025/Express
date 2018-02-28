@@ -1,0 +1,18 @@
+
+1.To install package globally.
+npm install -g express-generator
+
+2.To generate project
+express demo1
+
+3.You can notice that below code is there in package.json
+"start": "node ./bin/www"
+
+in order to change port, change to this line
+"start": "set PORT=3006 && node ./bin/www"
+
+4.To load node modules
+npm install
+
+5.To run project
+npm start
